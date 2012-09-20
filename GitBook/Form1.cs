@@ -191,47 +191,35 @@ namespace GitBook
 
                 while (text.Length > 0)
                 {
-
-                if (message.Length > pagesize)
-		        if (message.Length > pagesize * 5)
-                        {
-                            page = message.Substring(0, (pagesize * 5));
-                        }
-                        else
-                        {
-                            page = message.Substring(0, message.Length);
-                        }
-
-                        dynamicpagesize = page.IndexOf(delimStr);
-                        if (dynamicpagesize < 1)
-                        {
-                            page = message.Substring(0, pagesize);
-                            message = message.Substring(pagesize);
-                        }
-                        else
-                        {
-                            page = message.Substring(0, dynamicpagesize);
-                            //dynamicpagesize = dynamicpagesize + delimStr.Length;
-                            message = message.Substring(dynamicpagesize);
-                        }
-                    }
-                    else
+                    // save can not exceed pagesize
+                    if (text.Length > pagesize)
                     {
-                        page = message.Substring(0, message.Length);
-                        dynamicpagesize = page.IndexOf(delimStr);
-                        textBox1.AppendText(dynamicpagesize.ToString()); 
-                        if (dynamicpagesize < 0)
+                        page = text.Substring(0, pagesize);
+                    }else{
+                        page = text.Substring(0, text.Length);
+                    }
+
+                    // begining of file
+                    indexofstart = page.IndexOf(delimStr);
+                    // end of file (begin of next)
+                    indexofend = page.IndexOf(delimStr, indexofstart+delimStr.Length);
+                    
+                    if (indexofstart > -1)
+                    {
+                        if (indexofend > -1)
                         {
-                            message = message.Substring(message.Length);
+                            page = page.Substring(indexofstart, indexofend);
+                            text = text.Substring(indexofend);
                         }
                         else
                         {
-                            page = message.Substring(0, dynamicpagesize);
-                            //dynamicpagesize = dynamicpagesize + delimStr.Length;
-                            message = message.Substring(dynamicpagesize);
+                            page = page.Substring(indexofstart, page.Length);
+                            text = text.Substring(page.Length);
+                            
                         }
-                    }  
-
+                    } else {
+                        text = text.Substring(page.Length, text.Length);
+                    }
 
                     FileName = SaveName + (counter.ToString());
                     sw = new StreamWriter(FileName);
