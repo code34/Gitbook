@@ -1,0 +1,9 @@
+C:\Users\code34\documents\visual studio 2010\Projects\GitBook\GitBook\bin\Debug\GitBook.exe
+C:\Users\code34\documents\visual studio 2010\Projects\GitBook\GitBook\bin\Debug\GitBook.pdb
+C:\Users\code34\documents\visual studio 2010\Projects\GitBook\GitBook\obj\x86\Debug\GitBook.Properties.Resources.resources
+C:\Users\code34\documents\visual studio 2010\Projects\GitBook\GitBook\obj\x86\Debug\GitBook.csproj.GenerateResource.Cache
+C:\Users\code34\documents\visual studio 2010\Projects\GitBook\GitBook\obj\x86\Debug\GitBook.exe
+C:\Users\code34\documents\visual studio 2010\Projects\GitBook\GitBook\obj\x86\Debug\GitBook.pdb
+C:\Users\code34\Documents\Visual Studio 2010\Projects\GitBook\GitBook\obj\x86\Debug\GitBook.Form1.resources
+C:\Users\code34\Documents\Visual Studio 2010\Projects\GitBook\GitBook\obj\x86\Debug\GitBook.Form2.resources
+C:\Users\code34\Documents\Visual Studio 2010\Projects\GitBook\GitBook\obj\x86\Debug\GitBook.csprojResolveAssemblyReference.cache

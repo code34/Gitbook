@@ -1,0 +1,8 @@
+C:\Users\code34\Documents\Visual Studio 2010\Projects\GitBook\GitBook\bin\Release\GitBook.exe
+C:\Users\code34\Documents\Visual Studio 2010\Projects\GitBook\GitBook\bin\Release\GitBook.pdb
+C:\Users\code34\Documents\Visual Studio 2010\Projects\GitBook\GitBook\obj\x86\Release\GitBook.Properties.Resources.resources
+C:\Users\code34\Documents\Visual Studio 2010\Projects\GitBook\GitBook\obj\x86\Release\GitBook.csproj.GenerateResource.Cache
+C:\Users\code34\Documents\Visual Studio 2010\Projects\GitBook\GitBook\obj\x86\Release\GitBook.exe
+C:\Users\code34\Documents\Visual Studio 2010\Projects\GitBook\GitBook\obj\x86\Release\GitBook.pdb
+C:\Users\code34\Documents\Visual Studio 2010\Projects\GitBook\GitBook\obj\x86\Release\GitBook.Form1.resources
+C:\Users\code34\Documents\Visual Studio 2010\Projects\GitBook\GitBook\obj\x86\Release\GitBook.Form2.resources
