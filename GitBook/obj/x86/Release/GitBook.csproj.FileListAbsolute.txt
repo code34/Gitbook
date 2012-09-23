@@ -6,3 +6,4 @@ C:\Users\code34\Documents\Visual Studio 2010\Projects\GitBook\GitBook\obj\x86\Re
 C:\Users\code34\Documents\Visual Studio 2010\Projects\GitBook\GitBook\obj\x86\Release\GitBook.pdb
 C:\Users\code34\Documents\Visual Studio 2010\Projects\GitBook\GitBook\obj\x86\Release\GitBook.Form1.resources
 C:\Users\code34\Documents\Visual Studio 2010\Projects\GitBook\GitBook\obj\x86\Release\GitBook.Form2.resources
+C:\Users\code34\Documents\Visual Studio 2010\Projects\GitBook\GitBook\obj\x86\Release\GitBook.csprojResolveAssemblyReference.cache

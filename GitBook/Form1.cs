@@ -218,7 +218,7 @@ namespace GitBook
                             
                         }
                     } else {
-                        text = text.Substring(page.Length, text.Length);
+                        text = text.Substring(page.Length);
                     }
 
                     FileName = SaveName + (counter.ToString());
